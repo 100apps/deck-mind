@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Card, Player, RemainingCounts, Rank } from './types';
-import { dealCards, getInitialCounts, pickHandFromPlayer, sortHand, extractCards, getHandSpeakText } from './utils/cardLogic.ts';
-import { speakText } from './utils/soundUtils.ts';
+import { dealCards, getInitialCounts, pickHandFromPlayer, sortHand, extractCards, getHandSpeakText } from './utils/cardLogic';
+import { speakText } from './utils/soundUtils';
 import PlayingCard from './components/PlayingCard';
 import RecorderTrain from './components/RecorderTrain';
 import PlayerSpot from './components/PlayerSpot';
@@ -349,7 +349,7 @@ const App: React.FC = () => {
                     className="pointer-events-auto bg-blue-600 hover:bg-blue-500 text-white px-6 py-2 rounded-full font-bold shadow-lg flex items-center gap-2 text-sm transition-all"
                 >
                     {showRecorder ? <EyeOff size={16}/> : <Eye size={16}/>} 
-                    {showRecorder ? '收起' : '记牌器'}
+                    {showRecorder ? '记牌器'}
                 </button>
              </div>
         </div>

@@ -1,8 +1,10 @@
-# 🧠 斗地主记牌小神童 (Dou Dizhu Memory Trainer)
+# 🧠 Deck Mind (斗地主记牌小神童)
 
 > **三天练成“最强大脑”，辅助你达到极高的记牌水平。**
 
-这是一个专为斗地主爱好者设计的**React 单页应用 (SPA)**。它不仅仅是一个简单的打牌游戏，更是一个**深度记忆力训练工具**。通过视觉化的辅助（“小火车”记牌器）和强制性的记忆回溯（随机抽查），帮助用户在实战模拟中快速掌握记牌技巧。
+**Deck Mind** 是一个专为斗地主爱好者设计的**React 单页应用 (SPA)**。它不仅仅是一个简单的打牌游戏，更是一个**深度记忆力训练工具**。通过视觉化的辅助（“小火车”记牌器）和强制性的记忆回溯（随机抽查），帮助用户在实战模拟中快速掌握记牌技巧。
+
+🔗 **在线体验**: [https://deck-mind.gf.sh.cn](https://deck-mind.gf.sh.cn)
 
 ---
 
@@ -94,8 +96,8 @@
 
 1.  **克隆仓库**:
     ```bash
-    git clone https://github.com/your-username/doudizhu-memory-training.git
-    cd doudizhu-memory-training
+    git clone https://github.com/100apps/deck-mind.git
+    cd deck-mind
     ```
 
 2.  **安装依赖**:
