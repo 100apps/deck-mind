@@ -8,21 +8,16 @@ import PlayerSpot from './components/PlayerSpot';
 import QuizModal from './components/QuizModal';
 import { Eye, EyeOff, Play, RotateCcw, Brain, Trophy, Pause, Zap } from 'lucide-react';
 
-// Family Avatars (Photos from photo directory)
-import xiaoyingImg from './photo/xiaoying.png';
-import laoyingImg from './photo/laoying.png';
-import laoshuImg from './photo/laoshu.png';
-
-// Family Avatars (Photos from photo directory) — imported so Vite bundles them
+// Family Avatars (Photos from public folder)
 const AVATAR_CONFIGS = [
     // 小赢 (Xiao Ying - Me)
-    xiaoyingImg,
+    './photo/xiaoying.png',
 
     // 老赢 (Lao Ying - Dad)
-    laoyingImg,
+    './photo/laoying.png',
 
     // 老输 (Lao Shu - Mom)
-    laoshuImg
+    './photo/laoshu.png'
 ];
 
 const App: React.FC = () => {
